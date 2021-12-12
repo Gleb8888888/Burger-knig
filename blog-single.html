@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Ваш Блог | Бургер-Книг</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+	<header id="header"><!--header-->
+		<div class="header_top"><!--header_top-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="contactinfo">
+							<ul class="nav nav-pills">
+								<li><a href=""><i class="fa fa-phone"></i> Всё время не достепен (911)</a></li>
+								<li><a href=""><i class="fa fa-envelope"></i> гейпарад666@domain.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="social-icons pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href=""><i class="fa fa-facebook"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+								<li><a href=""><i class="fa fa-dribbble"></i></a></li>
+								<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header_top-->
+		
+		<div class="header-middle"><!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="index.html"><img src="images/home/logo.png" alt="" /></a>
+						</div>
+						<div class="btn-group pull-right">
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+									RU
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a href="">USA</a></li>
+									<li><a href="">UK</a></li>
+								</ul>
+							</div>
+							
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+									RUB
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a href="">DOLLAR</a></li>
+									<li><a href="">Pound</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href=""><i class="fa fa-user"></i> Аккаунт</a></li>
+								<li><a href=""><i class="fa fa-star"></i> Книга жалоб</a></li>
+								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Проверка</a></li>
+								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Корзина</a></li>
+								<li><a href="login.html"><i class="fa fa-lock"></i> Авторизация</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-middle-->
+	
+		<div class="header-bottom"><!--header-bottom-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Переключатель GPS</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a href="index.html">Дом</a></li>
+								<li class="dropdown"><a href="#">Магазин<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="shop.html">Покупки</a></li>
+										<li><a href="product-details.html">Харрактеристики</a></li> 
+										<li><a href="checkout.html">Проверка</a></li> 
+										<li><a href="cart.html">Корзина</a></li> 
+										<li><a href="login.html">Авторизация</a></li> 
+                                    </ul>
+                                </li> 
+								<li class="dropdown"><a href="#" class="active">Блог<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="blog.html">Список блогов</a></li>
+										<li><a href="blog-single.html" class="active">Ваш блог</a></li>
+                                    </ul>
+                                </li> 
+								<li><a href="404.html">НЕ НАЖИМАТЬ</a></li>
+								<li><a href="contact-us.html">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="search_box pull-right">
+							<input type="text" placeholder="Поиск"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-bottom-->
+	</header><!--/header-->
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="left-sidebar">
+						<h2>Категории</h2>
+						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#sportswear">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+											Не для детей
+										</a>
+									</h4>
+								</div>
+								<div id="sportswear" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="">Спорт </a></li>
+											<li><a href="">Для саморазвития </a></li>
+											<li><a href="">Для самопознания  </a></li>
+											<li><a href="">Для кругозора</a></li>
+											<li><a href="">Не для мужчин </a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#mens">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+											Для мужчин
+										</a>
+									</h4>
+								</div>
+								<div id="mens" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="">Машины.</a></li>
+											<li><a href="">Стрижки.</a></li>
+											<li><a href="">Тату.</a></li>
+											<li><a href="">Вязание.</a></li>
+											<li><a href="">Гадание на картах таро.</a></li>
+											<li><a href="">Отношения и безопасность.</a></li>
+											<li><a href="">Психология общения с детьми.</a></li>
+											<li><a href="">Психология общения с мамами детей своих.</a></li>
+											<li><a href="">Психология общения с мамами женщин своих.</a></li>
+											<li><a href="">Экзотика отношений.</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#womens">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+											Для женщин и не только...
+										</a>
+									</h4>
+								</div>
+								<div id="womens" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="">Смена пола и обратно.</a></li>
+											<li><a href="">Как оставаться женщиной.</a></li>
+											<li><a href="">Самооборона, карате DO.</a></li>
+											<li><a href="">Как красить не только ресницы, но и волосы За Рулём.</a></li>
+											<li><a href="">Прически когда не нужна расчёстка.</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Дети</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Распродажа</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">не покупается давно...</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Акции</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Неликвид</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">"цензура" и не только...</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Без цензурная литература</a></h4>
+								</div>
+							</div>
+						</div><!--/category-products-->
+					
+						<div class="brands_products"><!--brands_products-->
+							<h2>Издательство или издевательство</h2>
+							<div class="brands-name">
+								<ul class="nav nav-pills nav-stacked">
+									<li><a href=""> <span class="pull-right">(50)</span>Не шекспир</a></li>
+									<li><a href=""> <span class="pull-right">(56)</span>рядом не шекспир</a></li>
+									<li><a href=""> <span class="pull-right">(27)</span>гоблин и ко</a></li>
+									<li><a href=""> <span class="pull-right">(32)</span>гоблин это не шекспир</a></li>
+									<li><a href=""> <span class="pull-right">(5)</span>шекспира уже.net</a></li>
+									<li><a href=""> <span class="pull-right">(9)</span>никто не заменит заменимого!</a></li>
+									<li><a href=""> <span class="pull-right">(4)</span>посади иначе не вырастет. Садоводство.</a></li>
+								</ul>
+							</div>
+						</div><!--/brands_products-->
+						
+						<div class="price-range"><!--price-range-->
+							<h2>Антистресс, можно тоскать ползунок!</h2>
+							<div class="well text-center">
+								 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2" ><br />
+								 <b class="pull-left">$ 0</b> <b class="pull-right">600 руб.</b>
+							</div>
+						</div><!--/price-range-->
+						
+						<div class="shipping text-center"><!--shipping-->
+							<img src="images/home/shipping.jpg" alt="" />
+						</div><!--/shipping-->
+					</div>
+				</div>
+				<div class="col-sm-9">
+					<div class="blog-post-area">
+						<h2 class="title text-center">Последнее из нашего Блога</h2>
+						<div class="single-blog-post">
+							<h3>Скоро новое поступление книг, расширяем список не продаваемых экземпляров.</h3>
+							<div class="post-meta">
+								<ul>
+									<li><i class="fa fa-user"></i> Mac Doe</li>
+									<li><i class="fa fa-clock-o"></i> 1:33 pm</li>
+									<li><i class="fa fa-calendar"></i> DEC 5, 2013</li>
+								</ul>
+								<span>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i>
+								</span>
+							</div>
+							<a href="">
+								<img src="images/blog/blog-one.jpg" alt="">
+							</a>
+							<p>
+								Очень понравилась книга с вырванными тремя страницами , очень запуталась, но вырвав рандомно ещё несколько страниц список жанров расширился, сюжет наполнился ужасом, ночью читать было страшно.</p> <br>
+
+							<p>
+								За меня стали переживать не только близкие, но и чужие мне люди...</p> <br>
+
+							<p>
+								Мой психиатр, находит всяческие причины не принимать меня, думала я, но когда сидела в очереди к бесплатному психиатру в поликлинике, то увидела Богданчика, моего психиатра, пологаю в его жизни что-то происходит странное...</p> <br>
+
+							<p>
+								Эта книга перевернула все в моём внутреннем мире, надо выпить...
+							</p>
+							<div class="pager-area">
+								<ul class="pager pull-right">
+									<li><a href="#">наЗАД</a></li>
+									<li><a href="#">вПЕРёД</a></li>
+								</ul>
+							</div>
+						</div>
+					</div><!--/blog-post-area-->
+
+					<div class="rating-area">
+						<ul class="ratings">
+							<li class="rate-this">Обсуждение и оценка:</li>
+							<li>
+								<i class="fa fa-star color"></i>
+								<i class="fa fa-star color"></i>
+								<i class="fa fa-star color"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</li>
+							<li class="color">(6 внетренних голосов)</li>
+						</ul>
+						<ul class="tag">
+							<li>Ярлык:</li>
+							<li><a class="color" href="">Стоит ли читать это <span>/</span></a></li>
+							<li><a class="color" href="">Кто это вообще пишет <span>/</span></a></li>
+							<li><a class="color" href="">Как жить с этим дальше</a></li>
+						</ul>
+					</div><!--/rating-area-->
+
+					<div class="socials-share">
+						<a href=""><img src="images/blog/socials.png" alt=""></a>
+					</div><!--/socials-share-->
+
+					<div class="media commnets">
+						<a class="pull-left" href="#">
+							<img class="media-object" src="images/blog/man-one.jpg" alt="">
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">Жора</h4>
+							<p>Читал, понравилась обложка книги, оформление, кегель автором подобран правильно, для данного формата книги, но за 5 минут я прочитывал по четверти книги, и она без картинок, читал два раза в день по два раза, когда смущало содержание, читал состав чистещего средства и производителя туалетной бумаги т.к. данное чтиво я приобретал для приятного времяпрепровождения в туалете. Никогда не пил раньше, теперь понимаю,что мне это необходимо теперь...</p>
+							<div class="blog-socials">
+								<ul>
+									<li><a href=""><i class="fa fa-facebook"></i></a></li>
+									<li><a href=""><i class="fa fa-twitter"></i></a></li>
+									<li><a href=""><i class="fa fa-dribbble"></i></a></li>
+									<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+								</ul>
+								<a class="btn btn-primary" href="">Дригие мнения</a>
+							</div>
+						</div>
+					</div><!--Comments-->
+					<div class="response-area">
+						<h2>3 Ответа</h2>
+						<ul class="media-list">
+							<li class="media">
+								
+								<a class="pull-left" href="#">
+									<img class="media-object" src="images/blog/man-two.jpg" alt="">
+								</a>
+								<div class="media-body">
+									<ul class="sinlge-post-meta">
+										<li><i class="fa fa-user"></i>Гоша</li>
+										<li><i class="fa fa-clock-o"></i> 1:33 pm</li>
+										<li><i class="fa fa-calendar"></i> DEC 5, 2013</li>
+									</ul>
+									<p>Книгу не читал, искал психиатра, поиск вывел на эту страницу, отзывы весьма субьективны, скажу проще, как, почему, из-за чего автор страдал, почему им не кто не занимался, всё достаточно цензурно, выдержано, кроме названия книги, кстати, почему оно до сих пор не озвучено?</p>
+									<a class="btn btn-primary" href=""><i class="fa fa-reply"></i>Зачем Вам это?</a>
+								</div>
+							</li>
+							<li class="media second-media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="images/blog/man-three.jpg" alt="">
+								</a>
+								<div class="media-body">
+									<ul class="sinlge-post-meta">
+										<li><i class="fa fa-user"></i>MAMAMIA</li>
+										<li><i class="fa fa-clock-o"></i> 3:27:03 pm</li>
+										<li><i class="fa fa-calendar"></i> SEN 5, 2049</li>
+									</ul>
+									<p>Мама мне всегда говорила:"Ты, через чур предусмотрительна, живи, наслаждайся...", Она перестала со мной разговаривать по телефону, хотя у нас однушка, я и она, работаем на дому.</p>
+									<a class="btn btn-primary" href=""><i class="fa fa-reply"></i>Не надо!!!</a>
+								</div>
+							</li>
+							<li class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="images/blog/man-four.jpg" alt="">
+								</a>
+								<div class="media-body">
+									<ul class="sinlge-post-meta">
+										<li><i class="fa fa-user"></i>Андрей Кейдж</li>
+										<li><i class="fa fa-clock-o"></i> 1:33 pm</li>
+										<li><i class="fa fa-calendar"></i> DEC 5, 2013</li>
+									</ul>
+									<p>Я вот почитал отзывы, я в шоке, почему вы не задумались, об источнике, как ВЫ наступили на эти грабли, а я ведь первый покупатель, да, сказали что выиграл вторую книгу в подарок, так радовался "подарку", а как понял что он не мне, не расстроился, просто не РАССТРОИЛСЯ!</p>
+									<a class="btn btn-primary" href=""><i class="fa fa-reply"></i>Вам повторить?</a>
+								</div>
+							</li>
+						</ul>					
+					</div><!--/Response-area-->
+					<div class="replay-box">
+						<div class="row">
+							<div class="col-sm-4">
+								<h2>Оставить отзыв</h2>
+								<form>
+									<div class="blank-arrow">
+										<label>Имя</label>
+									</div>
+									<span>*</span>
+									<input type="text" placeholder="write your name...">
+									<div class="blank-arrow">
+										<label>Почта</label>
+									</div>
+									<span>*</span>
+									<input type="email" placeholder="your email address...">
+									<div class="blank-arrow">
+										<label>Имена, адреса, явки</label>
+									</div>
+									<input type="email" placeholder="current city...">
+								</form>
+							</div>
+							<div class="col-sm-8">
+								<div class="text-area">
+									<div class="blank-arrow">
+										<label>Описание Вашей проблемы</label>
+									</div>
+									<span>*</span>
+									<textarea name="message" rows="11"></textarea>
+									<a class="btn btn-primary" href="">Крик души</a>
+								</div>
+							</div>
+						</div>
+					</div><!--/Repaly Box-->
+				</div>	
+			</div>
+		</div>
+	</section>
+	
+	<footer id="footer"><!--Footer-->
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="companyinfo">
+							<h2><span>Бургер</span>-Книг</h2>
+							<p>Продаём и продаёмся (закрываемся)!!!</p>
+						</div>
+					</div>
+					<div class="col-sm-7">
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe1.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Руки шаляпина, шалят руки</p>
+								<h2>24 DEC 2045</h2>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe2.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Не подумав сказала</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe3.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>БЕЗ КОММЕНТАРИЕВ!!!</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe4.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>НИ чего не буду говорить без адвоката</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="address">
+							<img src="images/home/map.png" alt="" />
+							<p>г.Обнинск, ул.Строителей, дом 6, кв.34 (Нельзя больше прописывать, итак 6 ч./34 кв.м.)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Обслуживание номеров</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Доктора мне</a></li>
+								<li><a href="#">контакты</a></li>
+								<li><a href="#">Еда</a></li>
+								<li><a href="#">Такси</a></li>
+								<li><a href="#">Мануальная терапия</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Наши партнёры</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Нет пока</a></li>
+								<li><a href="#">Мужчины</a></li>
+								<li><a href="#">Женщины</a></li>
+								<li><a href="#">Дети</a></li>
+								<li><a href="#">Все</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Сторонняя помощь</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Полиция</a></li>
+								<li><a href="#">Скорая помощь</a></li>
+								<li><a href="#">Скорая полиция</a></li>
+								<li><a href="#">Пожарная</a></li>
+								<li><a href="#">Скорая пожарная</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Администрация Бургер-книг</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Информация о клиентах</a></li>
+								<li><a href="#">Где работают клиенты</a></li>
+								<li><a href="#">Место жительства клиентов</a></li>
+								<li><a href="#">Финансовая сводка по клиентам</a></li>
+								<li><a href="#">Общая база данных на клиентов</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3 col-sm-offset-1">
+						<div class="single-widget">
+							<h2>Поисковик Катерина 2-я, V1.0/2=5</h2>
+							<form action="#" class="searchform">
+								<input type="text" placeholder="Найди меня, если сможешь" />
+								<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+								<p>Кого найти, всех знаем!<br />Если не знаем, нам помогут сыщики- поисковые собаки, обученные погранцы, разных пород: есть бульки, пикенессы и персидские коты (ленивые)...</p>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="pull-left">Копия сайта © 1920 Бургер-Книг Inc. All rights reserved.</p>
+					<p class="pull-right">Разработано:  <span><a target="_blank" href="https://vk.com/id61930098">Глеб</a></span></p>
+				</div>
+			</div>
+		</div>
+		
+	</footer><!--/Footer-->
+	
+
+  
+    <script src="js/jquery.js"></script>
+	<script src="js/price-range.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
